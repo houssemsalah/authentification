@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "animate.css": "^4.1.1",
     "axios": "^0.21.4",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",

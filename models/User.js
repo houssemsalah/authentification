@@ -38,6 +38,10 @@ age:{
     type: String,
     required: true,
 },
+ cart: {
+        type: Array,
+        default: []
+ },
 
 });
 

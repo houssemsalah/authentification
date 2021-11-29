@@ -14,15 +14,15 @@ const Signin = () => {
         <div>
     <div className="limiter">
   <div className="container-login100" style={{backgroundImage: 'url(images/bg_4.jpg)'}}>
-    <div className="wrap-login100">
+    <div className="wrap-login100" >
       <div className="login100-pic js-tilt" data-tilt>
-        <img src="images/img-001.png" alt="IMG" />
+        <img style={{marginTop:"-100px",paddingRight: "-200px",width:"500px"}} src="./images/myhouse.png" alt="IMG" />
       </div>
-      <form className="login100-form validate-form" onSubmit={(e)=>e.preventDefault()}>
-        <span className="login100-form-title">
-          Member Login
+      
+      <form className="login100-form validate-form" onSubmit={(e)=>e.preventDefault()} style={{boxShadow:"none",width:"45%",border:"0px", marginTop:"-100px"}}>
+        <span className="login100-form-title">Se connecter
         </span>
-        <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+        <div className="wrap-input100 validate-input"  data-validate="Valid email is required: ex@abc.xyz">
           <input className="input100" type="text" name="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
           <span className="focus-input100" />
           <span className="symbol-input100">
@@ -37,8 +37,8 @@ const Signin = () => {
           </span>
         </div>
         
-        <div class="container-login100-form-btn">
-						<button class="login100-form-btn"  onClick={()=>dispatch(loginUser({ email, password}, history ))}>
+        <div class="container-login100-form-btn" style={{marginBottom:"-50px"}}>
+						<button  class="login100-form-btn"  onClick={()=>dispatch(loginUser({ email, password}, history ))}>
 							Login
 						</button>
 					</div>

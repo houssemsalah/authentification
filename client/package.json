@@ -3,15 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+   
+    "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
     "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+   
     "react": "^17.0.2",
+    "react-animated-css": "^1.2.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^17.0.2",
+    "react-font-style": "0.0.11",
+    "react-icons": "^4.2.0",
     "react-redux": "^7.2.5",
+    "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-slider": "^1.3.1",
+    "reactjs-popup": "^2.0.5",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
     "web-vitals": "^1.1.2"
@@ -40,5 +54,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"http://localhost:5000/"
+  "proxy": "http://localhost:5000/"
 }
